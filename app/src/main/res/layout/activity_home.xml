@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Home"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:textColor="@color/colorBlack"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="2dp"
+            android:background="@color/colorGreenDark"/>
+
+
+
+        <TextView
+                android:id="@+id/up"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Upcoming Events"
+                android:clickable="true"
+                android:textSize="20dp"
+                android:textColor="@drawable/textcolor"
+                />
+
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorGreenDark"/>
+
+        <TextView
+            android:id="@+id/cs"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Clubs and Societies"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:textColor="@drawable/textcolor"
+            />
+
+        <View
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorGreenDark"/>
+
+        <TextView
+            android:id="@+id/sw"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Student Welfare"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:textColor="@drawable/textcolor"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="2dp"
+            android:background="@color/colorGreenDark"/>
+
+        <TextView
+            android:id="@+id/dr"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Drives"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:textColor="@drawable/textcolor"
+        />
+        <View
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorGreenDark"/>
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
