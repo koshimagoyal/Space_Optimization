@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Clubs">
+    tools:context=".Team">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,12 +21,12 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/rehnuma"
+                    android:id="@+id/hr"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Rehnuma"
+                    android:text="Human Resource"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -39,12 +39,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/bhav"
+                    android:id="@+id/spon"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="BHAV"
+                    android:text="Sponsorship"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -57,12 +57,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/hyp"
+                    android:id="@+id/creative"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Hypnotics"
+                    android:text="Creative"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -75,12 +75,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/zena"
+                    android:id="@+id/pub"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Zena"
+                    android:text="Public Relation"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -93,12 +93,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/prek"
+                    android:id="@+id/media"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Prekshya"
+                    android:text="Media"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -111,12 +111,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/enac"
+                    android:id="@+id/cse"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Enactus"
+                    android:text="CSE/IT Technical"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -129,12 +129,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/rise"
+                    android:id="@+id/mech"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Rise For All"
+                    android:text="Mechanical Tech"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -147,12 +147,30 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/techno"
+                    android:id="@+id/ece"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Technoliterati"
+                    android:text="Electrical Tech"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/textcolor"
+                    />
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorGreenDark"/>
+
+                <TextView
+                    android:id="@+id/web"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Web Development"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"

@@ -6,4 +6,112 @@
     android:layout_height="match_parent"
     tools:context=".Upcoming">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/innerve"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Innerve, Technical Fest"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/textcolor"
+                    />
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorGreenDark"/>
+
+                <TextView
+                    android:id="@+id/diwali"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Diwali Fete"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/textcolor"
+                    />
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorGreenDark"/>
+
+                <TextView
+                    android:id="@+id/rd"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Republic Day Celebration"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/textcolor"
+                    />
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorGreenDark"/>
+
+                <TextView
+                    android:id="@+id/taran"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Taarangana, Cultural Fest"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/textcolor"
+                    />
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorGreenDark"/>
+
+                <TextView
+                    android:id="@+id/holi"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Holi Celebration"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:textColor="@drawable/textcolor"
+                    />
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorGreenDark"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

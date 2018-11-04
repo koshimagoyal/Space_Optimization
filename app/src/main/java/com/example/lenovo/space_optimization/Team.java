@@ -1,3 +1,4 @@
+
 package com.example.lenovo.space_optimization;
 
 import android.content.Intent;
@@ -7,24 +8,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Clubs extends AppCompatActivity {
+import org.w3c.dom.Text;
+
+public class Team extends AppCompatActivity {
 
     private TextView tv;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clubs);
+        setContentView(R.layout.activity_team);
         ActionBar ab = getSupportActionBar();
-        ab.setTitle("Clubs and Societies");
-        tv = (TextView) findViewById(R.id.rehnuma);
-        final Intent my = new Intent(this,Rehnuma.class);
+        ab.setTitle("Teams");
+        tv = (TextView) findViewById(R.id.creative);
+        final Intent my = new Intent(this,Creative.class);
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(my);
             }
         });
-
     }
 }

@@ -7,24 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Clubs extends AppCompatActivity {
+public class Rehnuma extends AppCompatActivity {
 
     private TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clubs);
+        setContentView(R.layout.activity_rehnuma);
         ActionBar ab = getSupportActionBar();
-        ab.setTitle("Clubs and Societies");
-        tv = (TextView) findViewById(R.id.rehnuma);
-        final Intent my = new Intent(this,Rehnuma.class);
+        ab.setTitle("Rehnuma");
+        tv = (TextView) findViewById(R.id.rl);
+        final Intent my = new Intent(this,MapsActivity.class);
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(my);
             }
         });
-
     }
 }

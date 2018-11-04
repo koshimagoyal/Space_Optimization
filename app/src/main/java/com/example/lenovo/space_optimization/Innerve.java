@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Clubs extends AppCompatActivity {
+public class Innerve extends AppCompatActivity {
 
     private TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clubs);
+        setContentView(R.layout.activity_innerve);
         ActionBar ab = getSupportActionBar();
-        ab.setTitle("Clubs and Societies");
-        tv = (TextView) findViewById(R.id.rehnuma);
-        final Intent my = new Intent(this,Rehnuma.class);
+        ab.setTitle("Innerve, Technical Fest");
+        tv = (TextView) findViewById(R.id.team);
+        final Intent my = new Intent(this,Team.class);
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

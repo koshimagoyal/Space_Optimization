@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Clubs">
+    tools:context=".Innerve">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,12 +21,12 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/rehnuma"
+                    android:id="@+id/ab"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Rehnuma"
+                    android:text="About"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -39,12 +39,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/bhav"
+                    android:id="@+id/team"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="BHAV"
+                    android:text="Teams"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -57,12 +57,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/hyp"
+                    android:id="@+id/comp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Hypnotics"
+                    android:text="Competitions"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -75,12 +75,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/zena"
+                    android:id="@+id/fe"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Zena"
+                    android:text="Fun Events"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -93,66 +93,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/prek"
+                    android:id="@+id/wrk"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Prekshya"
-                    android:clickable="true"
-                    android:textSize="20dp"
-                    android:textColor="@drawable/textcolor"
-                    />
-
-                <View
-                    android:layout_marginTop="30dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:background="@color/colorGreenDark"/>
-
-                <TextView
-                    android:id="@+id/enac"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="Enactus"
-                    android:clickable="true"
-                    android:textSize="20dp"
-                    android:textColor="@drawable/textcolor"
-                    />
-
-                <View
-                    android:layout_marginTop="30dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:background="@color/colorGreenDark"/>
-
-                <TextView
-                    android:id="@+id/rise"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="Rise For All"
-                    android:clickable="true"
-                    android:textSize="20dp"
-                    android:textColor="@drawable/textcolor"
-                    />
-
-                <View
-                    android:layout_marginTop="30dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:background="@color/colorGreenDark"/>
-
-                <TextView
-                    android:id="@+id/techno"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="Technoliterati"
+                    android:text="Workshops"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"

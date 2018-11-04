@@ -1,5 +1,6 @@
 package com.example.lenovo.space_optimization;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         txt = (TextView) findViewById(R.id.text);
         iv = (ImageView) findViewById(R.id.logo);
         pb = (ProgressBar) findViewById(R.id.pb);

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Clubs">
+    tools:context=".Rehnuma">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,12 +22,12 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/rehnuma"
+                    android:id="@+id/about"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Rehnuma"
+                    android:text="About"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -39,12 +40,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/bhav"
+                    android:id="@+id/ct"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="BHAV"
+                    android:text="Core Team"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -57,12 +58,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/hyp"
+                    android:id="@+id/event"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Hypnotics"
+                    android:text="Participating Events"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -75,12 +76,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/zena"
+                    android:id="@+id/audi"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Zena"
+                    android:text="Auditions"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -93,12 +94,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/prek"
+                    android:id="@+id/rt"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Prekshya"
+                    android:text="Rehearsal Time"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -111,12 +112,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/enac"
+                    android:id="@+id/rl"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Enactus"
+                    android:text="Rehearsal Location"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -129,12 +130,12 @@
                     android:background="@color/colorGreenDark"/>
 
                 <TextView
-                    android:id="@+id/rise"
+                    android:id="@+id/con"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="Rise For All"
+                    android:text="Contact"
                     android:clickable="true"
                     android:textSize="20dp"
                     android:textColor="@drawable/textcolor"
@@ -146,23 +147,7 @@
                     android:layout_height="2dp"
                     android:background="@color/colorGreenDark"/>
 
-                <TextView
-                    android:id="@+id/techno"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="Technoliterati"
-                    android:clickable="true"
-                    android:textSize="20dp"
-                    android:textColor="@drawable/textcolor"
-                    />
 
-                <View
-                    android:layout_marginTop="30dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:background="@color/colorGreenDark"/>
 
             </LinearLayout>
         </ScrollView>
